@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.avrp5.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\EONSupport\\Documents\\GitHub\\AVR P5\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "AVR P5 [Testing]"
+        }
+      }
+    }
+  ]
+}
