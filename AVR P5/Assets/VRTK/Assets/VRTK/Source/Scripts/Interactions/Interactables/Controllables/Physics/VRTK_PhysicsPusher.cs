@@ -28,7 +28,7 @@ namespace VRTK.Controllables.PhysicsBased
         [Tooltip("The local space distance along the `Operate Axis` until the pusher reaches the pressed position.")]
         public float pressedDistance = 0.1f;
         [Tooltip("If this is checked then the pusher will stay in the pressed position when it reaches the maximum position.")]
-        public bool stayPressed = false;
+        public static bool stayPressed = false;
         [Tooltip("The threshold in which the pusher's current normalized position along the `Operate Axis` has to be within the minimum and maximum limits of the pusher.")]
         [Range(0f, 1f)]
         public float minMaxLimitThreshold = 0.01f;

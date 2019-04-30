@@ -82,7 +82,7 @@
             if (obj.GetType() == typeof(VRTK_PhysicsPusher))
             {
                 VRTK_PhysicsPusher physicsObj = obj as VRTK_PhysicsPusher;
-                physicsObj.stayPressed = state;
+               // physicsObj.stayPressed = state;
             }
             else if (obj.GetType() == typeof(VRTK_ArtificialPusher))
             {
